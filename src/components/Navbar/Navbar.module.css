@@ -1,9 +1,8 @@
 .navbar {
   height: 13vh;
-  width: 98vw;
+  width: 99vw;
   display: flex;
   box-shadow: 2px 2px 20px 2px;
-  border-radius: 10px;
   justify-content:space-between;
   align-items: center;
   background-color: var(--white);
@@ -21,6 +20,7 @@
 }
 
 .date {
+
 margin-right: 1em;
 }
 

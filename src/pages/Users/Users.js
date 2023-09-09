@@ -13,7 +13,6 @@ const Users = () => {
 
   return (
     <div className={styles.users}>
-      <h1>Lista de Clientes</h1>
       <form onSubmit={handleSubmit}>
         <input
           type="text"

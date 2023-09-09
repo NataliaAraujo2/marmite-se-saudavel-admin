@@ -6,7 +6,6 @@ import styles from "./Navbar.module.css";
 import logo from "../../images/logo.png";
 //Components
 import NavButton from "../NavButton/NavButton";
-import MenuMobile from "../MenuMobile/MenuMobile";
 //Icons
 import {
   FaBars,
@@ -27,8 +26,8 @@ import { useAuthentication } from "../../hooks/useAuthentication";
 import { useAuthValue } from "../../context/AuthContext";
 
 const Navbar = () => {
-  const [menuMobile, setMenuMobile] = useState(false);
-  const showMenuMobile = () => setMenuMobile(!menuMobile);
+  const [Sidebar, setSidebar] = useState(false);
+  const showSidebar = () => setSidebar(!Sidebar);
 
   const { user } = useAuthValue();
 

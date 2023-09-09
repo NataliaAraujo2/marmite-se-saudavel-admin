@@ -3,17 +3,19 @@ import styled from 'styled-components';
 export const Container = styled.div`
   background-color: palevioletred;
   position: fixed;
-  height: fit-content;
-  top: 0px;
-  left: 0px;
-  width:fit-content;
+  height: 84.5%;
+  top: 15vh;
+  width:20em;
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px 2px;
+
 
   animation: showMenuMobile .4s;
   > svg {
-    
+    font-size: 3em;
     color: white;
-    width: 30px;
-    height: 30px;
+    width: 10px;
+    height: 10px;
     margin-top: 10px;
     margin-left: 250px;
     cursor: pointer;

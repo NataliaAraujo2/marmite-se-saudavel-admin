@@ -8,6 +8,8 @@ import { AuthProvider } from "./context/AuthContext";
 import Login from "./pages/Login/Login";
 import Home from "./pages/Home/Home";
 import Navbar from "./components/Navbar/Navbar";
+import Users from "./pages/Users/Users";
+import Sidebar from "./components/Sidebar/Sidebar";
 
 
 function App() {
@@ -30,9 +32,11 @@ function App() {
     <AuthProvider value={{ user }}>
         <BrowserRouter>
         <Navbar />
+        <Sidebar />
           <div className="container">
             <Routes>
               <Route path="/home" element={<Home />} />
+              <Route path="/users" element={<Users />} />
               <Route path="/" element={!user ? <Login /> : <Navigate to="/" />} />
             </Routes>
           </div>
