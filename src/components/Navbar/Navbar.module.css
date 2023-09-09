@@ -1,0 +1,29 @@
+.navbar {
+  height: 13vh;
+  width: 98vw;
+  display: flex;
+  box-shadow: 2px 2px 20px 2px;
+  border-radius: 10px;
+  justify-content:space-between;
+  align-items: center;
+  background-color: var(--white);
+}
+
+.navbar h1 {
+ align-self: center;
+}
+
+.brand {
+  width: auto;
+  height: 6em;
+  align-self: center;
+  margin-left: 0.5em;
+}
+
+.date {
+margin-right: 1em;
+}
+
+.logout {
+  margin-right: 1em;
+}
